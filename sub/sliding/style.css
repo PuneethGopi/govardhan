@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+/*--navbar--*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(255, 255, 255, 1)!important;
+}
+.navbar-brand {
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .navlink{
+  color: white;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .navlink.active,
+.navbar-dark .navbar-nav .navlink:hover {
+  color: #1ebba3;
+
+}
+
