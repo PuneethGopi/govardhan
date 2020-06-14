@@ -71,30 +71,37 @@ h2.heading{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 
 .products img{
   max-width: 100%;
   transition: transform 0.5s ease;
-
 }
 
 .products img:hover{
- transform: scale(1.1);
+ transform: scale(1.05);
  cursor: zoom-in;
  filter: brightness(40%);
 
 }
 
 .products{
-  position: relative;
-  overflow: hidden;
   padding: 0 20px 20px;
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
 }
 
-
+.products p{
+  position: absolute;
+  bottom: 1rem;
+  right: 0rem;
+  width: 100%;
+  font-size: 2vw;
+  text-shadow: 1rem;
+  color: white;
+}
 
 
 footer{
