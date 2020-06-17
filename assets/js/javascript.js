@@ -133,7 +133,7 @@ function sendmail(){
 	}
 	if(err==0){
 		$.ajax({
-	       url:'mail',
+	       url:'mail:puneethg1911@gmail.com',
 	       type: 'POST',
 	       data:{
 	       			'name' : $('.name-txt').val(),
