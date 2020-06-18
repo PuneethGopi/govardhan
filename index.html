@@ -29,26 +29,7 @@
     <!-- Navigation -->
     <div id="content">
       
-     <nav class="navbar navbar-toggleable-md navbar-inverse navbar-color " id="navbar">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#" onclick="homeclick(); return false;">Govardhan</a>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto ">
 
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="productclick(); return false;">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="featureclidk(); return false;">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" onclick="contactclick(); return false;">Contact</a>
-              </li>
-            </ul>
-          </div>
-      </nav>
 
 <!---silder-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -78,10 +59,32 @@
 	</a>
 </div>
 <!---end slider-->
+<nav class="navbar navbar-toggleable-md navbar-inverse navbar-color " id="navbar">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand" href="#" onclick="homeclick(); return false;">Govardhan</a>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+	  <ul class="navbar-nav ml-auto ">
 
-<div id="productdiv">
-	<div class="jumbotron container-fluid text-center">
-		<h2 class="heading">Products</h2>
+		<li class="nav-item">
+		  <a class="nav-link" href="#" onclick="productclick(); return false;">Product</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#" onclick="featureclidk(); return false;">Features</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#" onclick="contactclick(); return false;">Contact</a>
+		</li>
+	  </ul>
+	</div>
+</nav>
+<div class="container-fluid fulldiv product" id="productdiv">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h1 class="judul">OUR PRODUCT</h1>
+				<hr class="line"/>
 	<div class="wrapper">
 		<div class="products">
 			<a href="sliding.html" >
@@ -100,11 +103,13 @@
 				<img src="assets/image/prod_img/img.jpg">
 			</a>
 			<p>Fixed windows</p>
-		</div>
+	</div>
 	</div>
 	
 	</div> <!----end jumbotron-->
 	</div>
+</div>
+</div>
 
 
 <!---End Products section-->

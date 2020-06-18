@@ -201,7 +201,7 @@
 
 /*---slider---*/
 .carousel-item{
-	height: 90vh;
+	height: 100vh;
   }
  
  
@@ -241,7 +241,7 @@
   
   .products img:hover{
    transform: scale(1.05);
-  
+   overflow: hidden;
    filter: brightness(40%);
   
   }
@@ -250,7 +250,7 @@
 	padding: 0 20px 20px;
 	position: relative;
 	margin: 10px auto;
-	overflow: hidden;
+	
   }
   
   .products p{
@@ -258,11 +258,11 @@
 	bottom: 1rem;
 	right: 0rem;
 	width: 100%;
-	font-size: 2vw;
+	font-size: 2rem;
 	text-shadow: 1rem;
 	color: white;
   }
-  
+
 
 .fulldiv{
     display: flex;
